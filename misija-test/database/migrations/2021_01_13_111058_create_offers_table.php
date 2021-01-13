@@ -17,15 +17,14 @@ class CreateOffersTable extends Migration
             $table->id();
             $table->string('title', 255);
             $table->string('slug', 255);
-            $table->string('slug', 255);
-            $table->timestamp('published_at');
+            $table->timestamp('published_at')->nullable(); //dodao nullable ako nije objavljeno da bude null
             $table->timestamp('unpublished_at')->nullable();
             $table->boolean('published');
             $table->text('introduction');
             $table->text('description');
-            $table->integer('authour_id');
-            $table->integer('section_id');
-            $table->string('image', 255);
+            $table->integer('authour_id')->references('id')->on('users');
+            $table->integer('section_id')->references('id')->on('sections');
+            $table->string('image', 255)->nullable();
             $table->timestamps();
         });
     }

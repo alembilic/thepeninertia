@@ -18,7 +18,6 @@ class CreateSectionsTable extends Migration
             $table->string('name', 255);
             $table->string('slug', 255);
             $table->string('order');
-            $table->string('slug', 255);
             $table->boolean('published');
             $table->boolean('is_on_front');
             $table->timestamps();
