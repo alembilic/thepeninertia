@@ -1,0 +1,202 @@
+@import '../variables';
+
+.dark-theme {
+    body {
+        background: $body-bg-dark;
+        color: $dark-color;
+    }
+
+    .background-color {
+        background: $dark-bg;
+    }
+
+    .header-dropdown {
+        background: $dark-bg;
+    }
+
+    .text-color {
+        color: $dark-color;
+    }
+
+    .sidebar-menu, .header-navigation {
+        background: $dark-bg;
+        color: $dark-color;
+    }
+
+    .sidebar-menu-item-active {
+        background: $grad-menu-bg;
+        color: $dark-color;
+    }
+
+    .sidebar-menu-group-open {
+        background: #161d31;
+    }
+
+    .mobile-sidebar-holder {
+        .mobile-sidebar, .close-button {
+            background: $dark-bg;
+            color: $dark-color;
+        }
+    }
+
+    .card-holder {
+        background: $dark-bg;
+        color: $dark-color;
+    }
+
+    .table-holder {
+        color: $dark-color;
+
+        .table-head {
+            background: #343d55;
+        }
+        th {
+            border-top: 1px solid #434850;
+            border-bottom: 1px solid #434850;
+        }
+        .td {
+            border-top: 1px solid #3b4253;
+            color: #b4b7bd;
+        }
+    }
+
+    .modal-holder {
+        background: $dark-bg;
+        color: $dark-color;
+    }
+
+    .input-field-holder {
+        .input-field {
+            background: $dark-bg;
+            border: 1px solid #404656;
+            color: #b4b7bd;
+        }
+        .input-field:focus {
+            border: 1px solid #7367f0;
+        }
+        .input-label {
+            color: #d0d2d6;
+        }
+        .input-invalid {
+            border: 1px solid #ea5455 !important;
+        }
+        .invalid-feedback {
+            color: #ea5455;
+        }
+    }
+
+    .textarea-holder {
+        .textarea {
+            background: $dark-bg;
+            border: 1px solid #404656;
+            color: #b4b7bd;
+        }
+        .textarea:focus {
+            border: 1px solid #7367f0;
+        }
+        .textarea-label {
+            color: #d0d2d6;
+        }
+        .textarea-invalid {
+            border: 1px solid #ea5455 !important;
+        }
+        .invalid-feedback {
+            color: #ea5455;
+        }
+    }
+
+    .the-button-primary {
+        border: 1px solid #7367f0 !important;
+        color: #7367f0;
+        background-color: rgba(115, 103, 240, .1);
+    }
+    .the-button-secondary {
+        border: 1px solid #82868b !important;
+        color: #82868b;
+        background-color: rgba(130, 134, 139, .1);
+    }
+    .the-button-success {
+        border: 1px solid #28c76f !important;
+        color: #28c76f;
+        background-color: rgba(40, 199, 111, .1);
+    }
+    .the-button-danger {
+        border: 1px solid #ea5455 !important;
+        color: #ea5455;
+        background-color: rgba(234, 84, 85, .1);
+    }
+    .the-button-warning {
+        border: 1px solid #ff9f43 !important;
+        color: #ff9f43;
+        background-color: rgba(255, 159, 67, .1);
+    }
+    .the-button-info {
+        border: 1px solid #00cfe8 !important;
+        color: #00cfe8;
+        background-color: rgba(0, 207, 232, .1);
+    }
+    .the-button-dark {
+        border: 1px solid #4b4b4b !important;
+        color: #b8c2cc;
+        background-color: rgba(75, 75, 75, .1);
+    }
+
+    .slide-over-holder {
+        background: #283045;
+    }
+
+    .badge {
+        &.badge-primary {
+            color: #7367f0;
+            background-color: rgba(115,103,240,.12);
+        }
+        &.badge-secondary {
+            color: #82868b;
+            background-color: rgba(130,134,139,.12);
+        }
+        &.badge-success {
+            color: #28c76f;
+            background-color: rgba(40,199,111,.12);
+        }
+        &.badge-danger {
+            color: #ea5455;
+            background-color: rgba(234,84,85,.12);
+        }
+        &.badge-warning {
+            color: #ff9f43;
+            background-color: rgba(255,159,67,.12);
+        }
+        &.badge-info {
+            color: #00cfe8;
+            background-color: rgba(0,207,232,.12);
+        }
+        &.badge-dark {
+            color: #4b4b4b;
+            background-color: rgba(75,75,75,.12);
+        }
+    }
+
+    .text-muted {
+        color: #676d7d !important;
+    }
+
+    .campus-map-holder, .courses-and-classes-holder {
+        background: #283045;
+    }
+
+    .card-swipe-holder {
+        color: #b4b7bd;
+
+        .card-swipe-title {
+            background: #343d55;
+        }
+
+        .card-swipe-active {
+            color: #7366f0;
+        }
+    }
+
+    .guardian-card{
+        background-color: #3d455c;
+    }
+}
