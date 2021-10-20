@@ -1,0 +1,8 @@
+istraziti aplikaviju za testiranje reklama na razlicitim mrezama ad preview\
+
+usluge definisati
+brend - logo, stranice(web, insta, fb, ln, twitter, google), boje, font, tekst
+cjenovnik - po upitu, projektu, klijentu
+mail proposal - promovisanje usluga
+biznis kartice
+free promocija - clanci, komentari ...

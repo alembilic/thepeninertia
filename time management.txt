@@ -1,0 +1,9 @@
+Modul praćenja radnog vremena uposlenika
+
+Potrebno je napraviti grafički interfejs za zaposlenika da ima mogućnosti:
+	- prijave na posao
+	- registracije pauze, poslovog i privatnog odlaska (Početka i kraja)
+	- zavrsetka radnog vremena
+	- unos opisa aktivnosti za taj dan
+
+prijedlog: napraviti neki timeline na kojem ce se prikazivati sva desavanjau danu
